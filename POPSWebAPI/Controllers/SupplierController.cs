@@ -17,6 +17,7 @@ namespace POPSWebAPI.Controllers
         private PODbEntities db = new PODbEntities();
 
         // GET: api/Supplier
+        //Test for Push / Publish changes to GitHub
         public List<SUPPLIER> GetSUPPLIERs()
         {
             return db.SUPPLIERs.ToList();
