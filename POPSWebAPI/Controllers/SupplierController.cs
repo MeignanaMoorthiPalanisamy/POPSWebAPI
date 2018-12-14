@@ -101,6 +101,7 @@ namespace POPSWebAPI.Controllers
         }
 
         // DELETE: api/Supplier/5
+        //Comment added
         [ResponseType(typeof(SUPPLIER))]
         public IHttpActionResult DeleteSUPPLIER(string id)
         {
