@@ -18,6 +18,7 @@ namespace POPSWebAPI.Controllers
 
         // GET: api/Supplier
         //Test for Push / Publish changes to GitHub
+        //test for Commit build
         public List<SUPPLIER> GetSUPPLIERs()
         {
             return db.SUPPLIERs.ToList();
